@@ -31,16 +31,18 @@ In the original code, we used nested for loops to go through the entire 2017 or 
 
 The result is a significant reduction in total run time. Compared to the original code for both the 2017 and 2018 data, the refactored code ran the analysis in around one eighth the time. Copies of the execution times for both the original and refactored code can be found below:
 
-![Initial Execution Time (2017)](https://github.com/kjminges/stock-analysis/blob/main/Resources/VBA_Challenge_2017_Initial_Code.png)
+Initial Execution Time
+![Initial Execution Time (2017)](https://github.com/kjminges/stock-analysis/blob/main/Resources/VBA_Challenge_2017_Initial_Code.png "Initial Execution Time")
 ![Initial Execution Time (2018)](https://github.com/kjminges/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Initial_Code.png)
 
-![Refactored Execution Time (2017)](https://github.com/kjminges/stock-analysis/blob/main/Resources/VBA_Challenge_2017_Refactor.png)
+Refactored Execution Time
+![Refactored Execution Time (2017)](https://github.com/kjminges/stock-analysis/blob/main/Resources/VBA_Challenge_2017_Refactor.png "Refactored Execution Time")
 ![Refactored Execution Time (2018)](https://github.com/kjminges/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Refactor.png)
 
 For an overview of the stock performance in 2017 and 2018 based on the two codes, including updated run times for each (note that the code was edited slightly to ensure a more "apples-to-apples" comparison between the original and refactored), please see the exhibits below.
 
-![2017 Stock Outcomes](https://github.com/kjminges/stock-analysis/blob/main/Resources/VBA_Challenge_2017_Exhibit.png)
-![2018 Stock Outcomes](https://github.com/kjminges/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Exhibit.png)
+![2017 Stock Outcomes](https://github.com/kjminges/stock-analysis/blob/main/Resources/VBA_Challenge_2017_Exhibit.png "2017 Stock Outcomes")
+![2018 Stock Outcomes](https://github.com/kjminges/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Exhibit.png "2018 Stock Outcomes")
 
 ## Conclusion
 In summary, there are obvious advantages and disadvantages to the original and refactored codes. In general, refactoring code allows for the code to be re-written giving authors a second chance at writing code that is better organized or that runs more efficiently. A possible disadvantage is that while editing the code, you could introduce more bugs that were not part of the original code and could be hard to catch. This would ultimately lead to less efficient code and, if not caught early enough, could cause significant delays in delivery.
